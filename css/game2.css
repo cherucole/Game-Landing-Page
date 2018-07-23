@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  text-decoration-color: white;
+}
+
+.jumbotron {
+  background-color: black;
+  background-image: url("../img/harrypotter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+}
