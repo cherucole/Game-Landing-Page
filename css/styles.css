@@ -1,0 +1,48 @@
+body{
+  font-family: 'Cardo', serif;
+  
+}
+h1{
+  color: red;
+  text-align: center;
+
+}
+h3{
+  color: green;
+}
+p{
+  color: green;
+}
+#komo:hover{
+  color: green;
+}
+#mike{
+  color: black;
+
+  margin-left: 20px;
+}
+h4{
+  text-align: center;
+  color: #F4006A;
+}
+#cup{
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+}
+#pik{
+  height: 350px;
+  image-resolution: from-image;
+}
+#sik{
+  text-align: center;
+  color: #F4006A;
+  margin-left: 20px;
+}
+#sum{
+  margin-left: 20px;
+}
+#kip{
+  height: : 5000px;
+  height: : 5000px;
+}
