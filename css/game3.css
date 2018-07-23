@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+}
+.top-image {
+  width: 100%;
+  height: 20px;
+}
+.top-image img {
+  width: 100%;
+  height: 680px;
+}
