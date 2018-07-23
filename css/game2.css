@@ -1,6 +1,7 @@
 body {
   background-color: black;
-  text-decoration-color: white;
+  color: white;
+  font-family: Nunito;
 }
 
 .jumbotron {
@@ -38,3 +39,11 @@ body {
   background: black;
   color: white;
 }
+
+#small {
+  font-size: 12px;
+}
+
+.divider {
+  align-items: center;
+  }
