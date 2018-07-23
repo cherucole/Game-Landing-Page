@@ -1,3 +1,14 @@
 #net {
   background-image: url('../img/net.jpg');
 }
+.fifa {
+  background-color: red;
+  color: white;
+}
+.about{
+  color: #FFFFFF;
+  text-align: center;
+}
+#about {
+  background-color: #F4FFF4;
+}
