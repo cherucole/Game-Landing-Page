@@ -44,6 +44,10 @@ body {
   font-size: 12px;
 }
 
-.divider {
+#divider {
+  align-items: flex-end;
+  height: 4em;
+  display: flex;
   align-items: center;
-  }
+  justify-content: center;
+}
