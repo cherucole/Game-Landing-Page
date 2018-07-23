@@ -64,3 +64,15 @@ body {
 #caps {
   text-transform: uppercase;
 }
+
+#boop {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
