@@ -50,9 +50,10 @@ body {
   font-size: 11px;
 }
 
-#fret{
+#fret {
   align-items: center;
 }
+
 #divider {
   align-items: flex-end;
   height: 4em;
@@ -61,18 +62,29 @@ body {
   justify-content: center;
 }
 
-#caps {
-  text-transform: uppercase;
+#divi {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
+#try,#aha,#caps{
+  font-variant:small-caps;
+}
 #boop {
+padding-bottom: 30px;
+}
+
+#blur {
   border-style: solid;
   border-color: white;
   border-width: 1px;
+  padding: 0;
+  display: flex;
 }
 
 @media (max-width: 600px) {
-    nav, article {
-        width: 100%;
-        height: auto;
-    }
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
