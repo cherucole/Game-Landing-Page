@@ -1,48 +1,101 @@
-body{
+body {
   font-family: 'Cardo', serif;
-  
 }
-h1{
-  color: red;
+
+h1 {
+  color: #F4006A;
   text-align: center;
+}
 
+h3 {
+  color: #F4006A;
 }
-h3{
+
+p {
   color: green;
 }
-p{
+
+#komo:hover {
   color: green;
 }
-#komo:hover{
-  color: green;
-}
-#mike{
+
+#mike {
   color: black;
-
+  text-align: center;
   margin-left: 20px;
 }
-h4{
+
+h4 {
   text-align: center;
   color: #F4006A;
 }
-#cup{
-  font-size: 40px;
+
+#cup {
+  font-size: 20px;
   text-align: center;
-  color: blue;
+  color: #36485F;
 }
-#pik{
-  height: 350px;
+
+#pik {
+  /* height: 600px; */
   image-resolution: from-image;
 }
-#sik{
+
+#sik {
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+}
+
+#sum {
+  margin-left: 20px;
+}
+
+#kip {
+  height: : 5000px;
+  height: : 5000px;
+}
+
+#lip {
+  color: #F4006A;
+  background-color: black;
+  margin-right: -15px;
+}
+
+#komo {
   text-align: center;
   color: #F4006A;
-  margin-left: 20px;
+  font-size: 50px;
 }
-#sum{
-  margin-left: 20px;
+
+#sit {
+  font-size: -20px;
+  color: white;
 }
-#kip{
-  height: : 5000px;
-  height: : 5000px;
+
+#dip {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#pig {
+  font-size: -30px;
+}
+/* #buk{
+  background-color: black;
+} */
+#at {
+  text-align: right;
+}
+
+#nop p {
+  text-align: left;
+}
+#dip{
+  background-color: black;
+text-decoration-color:
+}
+#pit{
+  background-color: black;
 }
