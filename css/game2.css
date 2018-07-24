@@ -1,8 +1,10 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Nunito', sans-serif;
-}
+  font-family: 'Nunito';
+ font-style: normal;
+ font-weight: 400;
+  }
 
 .jumbotron {
   background-color: black;
@@ -62,18 +64,32 @@ body {
   justify-content: center;
 }
 
-#divi {
+#divi,#divis {
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
 }
 
-#try,#aha,#caps{
-  font-variant:small-caps;
+#try, #aha, #caps {
+  font-variant: small-caps;
 }
-#boop {
-padding-bottom: 30px;
+
+div#divi:after {
+content: " ";
+  border-bottom:1px solid grey;
+  width:80%;
+  display:block;
+  margin:0 auto;
 }
+/*#pax {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border: center;
+}*/
 
 #blur {
   border-style: solid;
@@ -84,7 +100,7 @@ padding-bottom: 30px;
 }
 
 @media (max-width: 600px) {
-  nav, article {
+#frame{
     width: 100%;
     height: auto;
   }
