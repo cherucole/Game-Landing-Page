@@ -99,6 +99,9 @@ content: " ";
   display: flex;
 }
 
+#frame{
+  align-content: center;
+}
 @media (max-width: 600px) {
 #frame{
     width: 100%;
