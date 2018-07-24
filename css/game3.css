@@ -15,7 +15,7 @@ body {
 
 .top-image {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/top.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/top.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 680px;
@@ -102,9 +102,9 @@ ion-icon {
 #second-row img,
 #top img {
   height: 70px;
-  width: 200px;
+  width: 180px;
   line-height: 50%;
-  margin:3%;
+  margin:1.6%;
 }
 
 #second-row p {
@@ -112,9 +112,15 @@ ion-icon {
 }
 
 #third-row {
-  margin-top: 10px;
-}
+  margin-top: 20px;
 
+}
+#third-row iframe {
+  height:220px;
+}
+#third-row ul{
+  text-align: left;
+}
 #third-row img {
   height: 70px;
   width: 185px;
