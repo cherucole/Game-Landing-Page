@@ -1,9 +1,10 @@
 body {
-  background-color: #FD2C69;
+  background-color: black;
   width: 100%;
   font-family: 'Cardo', serif;
   font-size: 22px;
   margin: 0 auto;
+  color:white;
   /* background: #fc00ff;  /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -14,12 +15,25 @@ body {
 
 .top-image {
   width: 100%;
-  background-image: url(../img/ab.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/top.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 680px;
   margin-bottom: 20px;
 }
+.top-image p{
+  color:white;
+  margin-top: 20px;
+}
+.top-image h1{
+  color:white;
+  margin-top: 210px;
+  font-size: 60px;
+}
+#top{
+  /* margin-right: 30px; */
+}
+
 
 ion-icon {
   font-size: 25px;
@@ -31,22 +45,36 @@ ion-icon {
 }
 
 .top-image a {
-  position: absolute;
-  top: 500px;
-  left: 260px;
+  position: relative;
+  /* top: 460px; */
+
+}
+.top-image a:hover {
+  font-weight: 100;
 }
 
 .top-image button {
-  background-color: #FF2142;
-  padding: 18px;
+  background-color: #ef2528;
+  padding: 12px;
   width: 200px;
   color: white;
   border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
 }
 
 .top-image img {
   width: 100%;
   height: 680px;
+  position: relative;
+  top:
+}
+#top a {
+  height: 70px;
+  width: 200px;
+  line-height: 50%;
+  margin:-2%;
 }
 
 #first-row {
@@ -64,11 +92,19 @@ ion-icon {
   margin-left: -18px;
   border-radius: 10px;
 }
+#second-row {
+  text-align: center;
+}
+#downloads{
+  text-align: center;
+}
 
-#second-row img {
+#second-row img,
+#top img {
   height: 70px;
-  width: 185px;
+  width: 200px;
   line-height: 50%;
+  margin:3%;
 }
 
 #second-row p {
@@ -84,8 +120,12 @@ ion-icon {
   width: 185px;
 }
 
-iframe {
+/* iframe {
   margin-left: 200px;
+} */
+#video-row {
+
+  text-align: center;
 }
 
 #screenshot img {
