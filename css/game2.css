@@ -72,6 +72,7 @@ body {
 
 #try, #aha, #caps {
   font-variant: small-caps;
+  text-decoration-color: grey;
 }
 
 div#divi:after {
