@@ -51,19 +51,19 @@ body{
   padding: 3rem;
 }
 .fa-facebook{
-  color: #3b5998;
+  color: white;
 }
 .fa-twitter{
   color: #00aced;
 }
 .fa-google-plus-g{
-  color: #dd4b39;
+  color: white;
 }
 .fa-instagram{
-  color: #b92b27;
+  color: white;
 }
 .fa-youtube{
-  color: #bb0000;
+  color: white;
 }
 .fa-facebook:hover,
 .fa-twitter:hover,
