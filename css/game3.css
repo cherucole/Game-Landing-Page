@@ -1,3 +1,5 @@
+
+
 body {
   background-color: black;
   width: 100%;
@@ -5,20 +7,14 @@ body {
   font-size: 22px;
   margin: 0 auto;
   color:white;
-  /* background: #fc00ff;  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #00dbde, #fc00ff); */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  */
+  font-weight: 500;
+  box-sizing: border-box;
 }
 
 .top-image {
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/top.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/top15.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
   margin-bottom: 20px;
 }
 .top-image p{
@@ -30,15 +26,10 @@ body {
   margin-top: 210px;
   font-size: 60px;
 }
-#top{
-  /* margin-right: 30px; */
-}
-
 
 ion-icon {
   font-size: 25px;
   color: white;
-  /* margin-right: 3px; */
   float: left;
   display: inline;
   margin-top: 3px;
@@ -46,8 +37,6 @@ ion-icon {
 
 .top-image a {
   position: relative;
-  /* top: 460px; */
-
 }
 .top-image a:hover {
   font-weight: 100;
@@ -67,8 +56,6 @@ ion-icon {
 .top-image img {
   width: 100%;
   height: 680px;
-  position: relative;
-  top:
 }
 #top a {
   height: 70px;
@@ -78,7 +65,6 @@ ion-icon {
 }
 
 #first-row {
-  height: 200px;
   margin-bottom: 10px;
   padding-left: 20px;
 }
@@ -89,11 +75,12 @@ ion-icon {
 
 #first-row img {
   height: 180px;
-  margin-left: -18px;
+  margin-right: 20px;
   border-radius: 10px;
 }
 #second-row {
   text-align: center;
+  margin-top: -50px;
 }
 #downloads{
   text-align: center;
@@ -102,27 +89,35 @@ ion-icon {
 #second-row img,
 #top img {
   height: 70px;
-  width: 200px;
+  width: 180px;
   line-height: 50%;
-  margin:3%;
+  margin:1.6%;
 }
 
 #second-row p {
   margin-top: 54px;
 }
-
-#third-row {
-  margin-top: 10px;
+#samples{
+  text-align: center;
 }
+#samples p{
+  margin-top: 60px;
+}
+#third-row {
+  margin-top: 20px;
 
+}
+#third-row iframe {
+  height:220px;
+}
+#third-row ul{
+  text-align: left;
+}
 #third-row img {
   height: 70px;
   width: 185px;
 }
 
-/* iframe {
-  margin-left: 200px;
-} */
 #video-row {
 
   text-align: center;
@@ -136,7 +131,6 @@ ion-icon {
 }
 
 #video-background {
-  /*  making the video fullscreen  */
   position: fixed;
   right: 0;
   bottom: 0;
@@ -145,4 +139,8 @@ ion-icon {
   width: auto;
   height: auto;
   z-index: -100;
+}
+#g3-footer {
+  background-color: black;
+  color:white;
 }
