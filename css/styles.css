@@ -1,96 +1,103 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
-html, body{
-  height:100%;
+html, body {
+  height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
 }
 
-nav{
+nav {
   background-image: url("../img/navbar.png");
   background-size: cover;
 }
 
-#navtext{
+#navtext {
   color: white;
 }
 
-h3{
+h3 {
   color: White;
 }
 
-body{
+body {
   background-image: url("../img/parallax.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
-.navbar{
+.navbar {
   padding: .8rem;
 }
-.navbar-nav li{
+
+.navbar-nav li {
   padding-right: 20px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.1em !important;
 }
 
-#jumbotronGames{
-  padding: 0.2rem;
-  border-radius: 0;
-}
-#jumbotronNew{
+#jumbotronGames {
   padding: 0.2rem;
   border-radius: 0;
 }
 
-#jumboFeedback{
+#jumbotronNew {
+  padding: 0.2rem;
+  border-radius: 0;
+}
+
+#jumboFeedback {
   padding: 2.7rem;
   border-radius: 0;
 }
 
-.padding{
+.padding {
   padding-bottom: 1rem;
 }
 
-.social a{
+.social a {
   font-size: 4.5em;
   padding: 3rem;
 }
-.fa-facebook{
+
+.fa-facebook {
   color: white;
 }
-.fa-twitter{
+
+.fa-twitter {
   color: #00aced;
 }
-.fa-google-plus-g{
+
+.fa-google-plus-g {
   color: white;
 }
-.fa-instagram{
+
+.fa-instagram {
   color: white;
 }
-.fa-youtube{
+
+.fa-youtube {
   color: white;
 }
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-google-plus-g:hover,
-.fa-instagram:hover'
-.fa-youtube:hover{
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover'
+ .fa-youtube:hover {
   color: #d5d5d5;
 }
-footer{
+
+footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 1rem;
 }
-hr.light{
+
+hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
 }
-hr.light-100{
+
+hr.light-100 {
   border-top: 1px solid #d5d5d5;
   width: 100%;
 }
@@ -112,21 +119,21 @@ hr.light-100{
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
-    padding:2rem;
+    padding: 2rem;
   }
 }
 
 @media (max-width: 768px) {
   .social a {
     font-size: 2.5em;
-    padding:1.2rem;
+    padding: 1.2rem;
   }
 }
 
 @media (max-width: 576px) {
   .social a {
     font-size: 2em;
-    padding:0.7rem;
+    padding: 0.7rem;
   }
 }
 
