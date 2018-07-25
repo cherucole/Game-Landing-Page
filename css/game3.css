@@ -1,3 +1,19 @@
+
+/* TO BE REMOVED BEFORE MERGE */
+/* }
+
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+} */
+
+
 body {
   background-color: black;
   width: 100%;
@@ -5,6 +21,7 @@ body {
   font-size: 22px;
   margin: 0 auto;
   color:white;
+  font-weight: 500;
   /* background: #fc00ff;  /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -15,9 +32,10 @@ body {
 
 .top-image {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/top.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/top15.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-position:right; */
   height: 680px;
   margin-bottom: 20px;
 }
@@ -151,4 +169,8 @@ ion-icon {
   width: auto;
   height: auto;
   z-index: -100;
+}
+#g3-footer {
+  background-color: #E4E4E4;
+  color:black;
 }
