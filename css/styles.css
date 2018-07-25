@@ -7,6 +7,15 @@ html, body{
   color: #222;
 }
 
+nav{
+  background-image: url("../img/navbar.png");
+  background-size: cover;
+}
+
+#navtext{
+  color: white;
+}
+
 h3{
   color: White;
 }
