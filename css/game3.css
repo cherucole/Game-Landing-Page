@@ -22,6 +22,7 @@ body {
   margin: 0 auto;
   color:white;
   font-weight: 500;
+  box-sizing: border-box;
   /* background: #fc00ff;  /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -31,12 +32,12 @@ body {
 }
 
 .top-image {
-  width: 100%;
+  /* width: 100%; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/top15.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position:right; */
-  height: 680px;
+  /* height: 680px; */
   margin-bottom: 20px;
 }
 .top-image p{
@@ -85,8 +86,6 @@ ion-icon {
 .top-image img {
   width: 100%;
   height: 680px;
-  position: relative;
-  top:
 }
 #top a {
   height: 70px;
@@ -96,7 +95,7 @@ ion-icon {
 }
 
 #first-row {
-  height: 200px;
+  /* height: 200px; */
   margin-bottom: 10px;
   padding-left: 20px;
 }
@@ -107,11 +106,12 @@ ion-icon {
 
 #first-row img {
   height: 180px;
-  margin-left: -18px;
+  margin-right: 20px;
   border-radius: 10px;
 }
 #second-row {
   text-align: center;
+  margin-top: -50px;
 }
 #downloads{
   text-align: center;
@@ -128,7 +128,12 @@ ion-icon {
 #second-row p {
   margin-top: 54px;
 }
-
+#samples{
+  text-align: center;
+}
+#samples p{
+  margin-top: 60px;
+}
 #third-row {
   margin-top: 20px;
 
