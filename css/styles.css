@@ -18,7 +18,19 @@ html, body{
   font-size: 1.1em !important;
 }
 
+#jumbotronGames{
+  padding: 0.2rem;
+  border-radius: 0;
+}
+#jumbotronNew{
+  padding: 0.2rem;
+  border-radius: 0;
+}
 
+#jumboFeedback{
+  padding: 2.7rem;
+  border-radius: 0;
+}
 
 
 
