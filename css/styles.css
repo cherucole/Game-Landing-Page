@@ -7,6 +7,16 @@ html, body{
   color: #222;
 }
 
+h3{
+  color: White;
+}
+
+body{
+  background-image: url("../img/parallax.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .navbar{
   padding: .8rem;
 }
