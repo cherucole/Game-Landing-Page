@@ -1,14 +1,57 @@
-#net {
-  background-image: url('../img/net.jpg');
-}
-.fifa {
-  background-color: red;
-  color: white;
+.net {
+  /* background-image: url('../img/net.jpg'); */
+  color: black;
+  margin-top: -55px;
+  height: auto;
+  padding-top: -45px;
+  margin-bottom: -50px;
 }
 .about{
-  color: #FFFFFF;
+  color: white;
   text-align: center;
+  font-family: 'Abril Fatface', cursive;
 }
-#about {
-  background-color: #F4FFF4;
+.blak{
+  /* background-color: black; */
+margin-bottom: -220px;
+margin-top: 23px;
+}
+#img img {
+  height: 320px;
+  width: 550px;
+  margin-top: 22px;
+}
+.pg{
+  font-family: 'Old Standard TT', serif;
+  color: white;
+  font-size: 150%;
+}
+iframe {
+  margin-left: 100%auto;
+}
+#cup{
+  padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.apple img {
+  margin-top: 80px;
+  height: 110px;
+  width: 203px;
+}
+.bdy{
+  background-color: black;
+  background-attachment: fixed;
+}
+.ba{
+background-image: url('../img/body.jpeg');
+  background-attachment: fixed;
+}
+.jumbotron{
+  background-color: #19003F;
+  background-attachment: fixed;
+}
+.well{
+background-color: #141122;
 }
