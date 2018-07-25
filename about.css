@@ -1,0 +1,154 @@
+body {
+  font-family: 'Cardo', serif;
+}
+
+h1 {
+  color: #F4006A;
+  text-align: center;
+}
+
+h3 {
+  color: #F4006A;
+}
+
+p {
+  color: green;
+}
+
+#komo:hover {
+  color: green;
+}
+
+#mike {
+  color: black;
+  text-align: justify;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+h4 {
+  text-align: center;
+  color: #F4006A;
+  font-size: 30px;
+}
+
+#cup {
+  font-size: 40px;
+  text-align: center;
+  color: #36485F;
+}
+
+#pik {
+  /* height: 600px; */
+  image-resolution: from-image;
+}
+
+#sik {
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+}
+
+#sum {
+  margin-left: 20px;
+}
+
+#kip {
+  height: : 5000px;
+  height: : 5000px;
+}
+
+#lip {
+  color: #F4006A;
+  background-color: black;
+  margin-right: -15px;
+}
+
+#komo {
+  text-align: center;
+  color: #F4006A;
+  font-size: 50px;
+}
+
+#sit {
+  font-size: -20px;
+  color: white;
+}
+
+#dip {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#pig {
+  font-size: -30px;
+}
+/* #buk{
+  background-color: black;
+} */
+#at {
+  text-align: center;
+}
+
+#nop p {
+  text-align: center;
+}
+#dip{
+  background-color: black;
+text-decoration-color:
+}
+#pit{
+  background-color: black;
+  font-size: 20px;
+}
+#PUK{
+  height: 50%;
+}
+h{
+  color:  #F4006A;
+}
+#kum{
+  font-size: 40px;
+}
+#myNavbar{
+  text-align:center;
+}
+#nit{
+  color: red;
+}
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: centre;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-left: 50px;
+  background-color: black;
+  padding-bottom: 70px;
+  width: 109%;
+  height:0%;
+  margin-bottom: 50px;
+  color: white;
+}
+#mit{
+  color: white;
+}
+#vip{
+  color: green;
+}
+#dap{
+  color: brown;
+}
+#dep{
+  color: #3744AF;
+}
+#dip{
+  color: #E18500;
+}
+#pip{
+  color: #2C66B9;
+}
+#git{
+  color: white;
+}

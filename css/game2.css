@@ -1,7 +1,10 @@
 body {
   background-color: black;
-  text-decoration-color: white;
-}
+  color: white;
+  font-family: 'Nunito';
+ font-style: normal;
+ font-weight: 400;
+  }
 
 .jumbotron {
   background-color: black;
@@ -10,3 +13,98 @@ body {
   background-repeat: no-repeat;
   height: 450px;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+#small {
+  font-size: 9px;
+}
+
+#bolder {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+#fret {
+  align-items: center;
+}
+
+#divider {
+  align-items: flex-end;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divi,#divis {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#try, #aha, #caps {
+  font-variant: small-caps;
+  text-decoration-color: grey;
+}
+
+div#divi:after {
+content: " ";
+  border-bottom:1px solid grey;
+  width:80%;
+  display:block;
+  margin:0 auto;
+}
+/*#pax {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border: center;
+}*/
+
+#blur {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 0;
+  display: flex;
+}
+
+#frame{
+  align-content: center;
+}
+@media (max-width: 600px) {
+#frame{
+    width: 100%;
+    height: auto;
+  }

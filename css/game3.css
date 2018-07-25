@@ -1,11 +1,146 @@
+
+
 body {
-  background-color: pink;
-}
-.top-image {
+  background-color: black;
   width: 100%;
-  height: 20px;
+  font-family: 'Cardo', serif;
+  font-size: 22px;
+  margin: 0 auto;
+  color:white;
+  font-weight: 500;
+  box-sizing: border-box;
 }
+
+.top-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/top15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.top-image p{
+  color:white;
+  margin-top: 20px;
+}
+.top-image h1{
+  color:white;
+  margin-top: 210px;
+  font-size: 60px;
+}
+
+ion-icon {
+  font-size: 25px;
+  color: white;
+  float: left;
+  display: inline;
+  margin-top: 3px;
+}
+
+.top-image a {
+  position: relative;
+}
+.top-image a:hover {
+  font-weight: 100;
+}
+
+.top-image button {
+  background-color: #ef2528;
+  padding: 12px;
+  width: 200px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
 .top-image img {
   width: 100%;
   height: 680px;
+}
+#top a {
+  height: 70px;
+  width: 200px;
+  line-height: 50%;
+  margin:-2%;
+}
+
+#first-row {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.content {
+  padding-left: 20px;
+}
+
+#first-row img {
+  height: 180px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+#second-row {
+  text-align: center;
+  margin-top: -50px;
+}
+#downloads{
+  text-align: center;
+}
+
+#second-row img,
+#top img {
+  height: 70px;
+  width: 180px;
+  line-height: 50%;
+  margin:1.6%;
+}
+
+#second-row p {
+  margin-top: 54px;
+}
+#samples{
+  text-align: center;
+}
+#samples p{
+  margin-top: 60px;
+}
+#third-row {
+  margin-top: 20px;
+
+}
+#third-row iframe {
+  height:220px;
+}
+#third-row ul{
+  text-align: left;
+}
+#third-row img {
+  height: 70px;
+  width: 185px;
+}
+
+#video-row {
+
+  text-align: center;
+}
+
+#screenshot img {
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin: 1.2%;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+#g3-footer {
+  background-color: black;
+  color:white;
 }

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 html, body {
   height: 100%;
@@ -68,6 +69,8 @@ body {
 .fa-twitter {
   color: #00aced;
 }
+
+
 
 .fa-google-plus-g {
   color: white;
@@ -200,3 +203,4 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
