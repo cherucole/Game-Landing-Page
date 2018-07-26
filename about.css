@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
 body {
   font-family: 'Cardo', serif;
 }
@@ -11,9 +14,47 @@ h3 {
   color: #F4006A;
 }
 
-p {
-  color: green;
+body {
+  background-image: url("../img/parallax.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
 }
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 1rem;
+}
+
+nav {
+  background-image: url("../img/navbar.png");
+  background-size: cover;
+  font-size: 24px;
+  color: white;
+}
+.navbar {
+  padding: .8rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
+
+
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+}
+
+#desc{
+  color: black;
+}
+
+/* p {
+  color: green;
+} */
 
 #komo:hover {
   color: green;
@@ -25,10 +66,14 @@ p {
 }
 
 #mike {
-  color: black;
+  color: white;
   text-align: justify;
   padding-left: 0px;
-  font-size: 20px;
+  font-size: 22px;
+  font-style: Poppins;
+}
+#navtext {
+  color: white;
 }
 
 h4 {
