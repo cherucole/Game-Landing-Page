@@ -11,7 +11,7 @@ body {
   background-image: url("../img/parallax.jpg");
   background-size: cover;
   background-attachment: fixed;
-  color: white;
+  /* color: white; */
 }
 
 footer {
