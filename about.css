@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
-
 body {
   font-family: 'Poppins', serif;
 }
-
-/* h1 {
-  color: #F4006A;
-  text-align: center;
-} */
 
 h3 {
   color: #F4006A;
@@ -34,22 +27,22 @@ nav {
   font-size: 22px;
   color: white;
 }
+
 .navbar {
   padding: .8rem;
 }
+
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
 }
-
-
 
 hr.light-100 {
   border-top: 1px solid #d5d5d5;
   width: 100%;
 }
 
-#desc{
+#desc {
   color: black;
 }
 
@@ -59,9 +52,9 @@ hr.light-100 {
 
 #komo:hover {
   color: green;
-
 }
-#komo{
+
+#komo {
   color: red;
   text-align: center;
 }
@@ -73,6 +66,7 @@ hr.light-100 {
   font-size: 22px;
   font-style: Poppins;
 }
+
 #navtext {
   color: white;
 }
@@ -135,9 +129,11 @@ h4 {
 #pig {
   font-size: -30px;
 }
+
 /* #buk{
   background-color: black;
 } */
+
 #at {
   text-align: center;
 }
@@ -145,26 +141,32 @@ h4 {
 #nop p {
   text-align: center;
 }
-#dip{
+
+#dip {
   background-color: black;
-text-decoration-color:
+  text-decoration-color:
 }
 
-#PUK{
+#PUK {
   height: 50%;
 }
-h{
-  color:  #F4006A;
+
+h {
+  color: #F4006A;
 }
-#kum{
+
+#kum {
   font-size: 40px;
 }
+
 /* #myNavbar{
   text-align:center;
 } */
-#nit{
+
+#nit {
   color: red;
 }
+
 .flex-container {
   display: flex;
   height: 200px;
@@ -175,42 +177,52 @@ h{
   background-color: black;
   padding-bottom: 70px;
   width: 109%;
-  height:0%;
+  height: 0%;
   margin-bottom: 50px;
   color: white;
 }
-#mit{
-  color: white;
-}
-#vip{
-  color: green;
-}
-#dap{
-  color: brown;
-}
-#dep{
-  color: #3744AF;
-}
-#dip{
-  color: #E18500;
-}
-#pip{
-  color: #2C66B9;
-}
-#git{
+
+#mit {
   color: white;
 }
 
-#log{
+#vip {
+  color: green;
+}
+
+#dap {
+  color: brown;
+}
+
+#dep {
+  color: #3744AF;
+}
+
+#dip {
+  color: #E18500;
+}
+
+#pip {
+  color: #2C66B9;
+}
+
+#git {
+  color: white;
+}
+
+#log {
   margin-right: 800px;
 }
-#b{
+
+#b {
   color: red;
 }
-h{
+
+h {
   color: red;
 }
-#kik{
-  padding-right:100px;
+
+#kik {
+  padding-right: 100px;
   padding-right: 600px;
 }
