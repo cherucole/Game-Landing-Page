@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: white;
+  color: grey;
   font-family: 'Nunito';
  font-style: normal;
  font-weight: 400;
@@ -72,7 +72,7 @@ body {
 
 #try, #aha, #caps {
   font-variant: small-caps;
-  text-decoration-color: grey;
+    color: white;
 }
 
 div#divi:after {
