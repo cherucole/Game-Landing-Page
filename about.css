@@ -49,9 +49,9 @@ hr.light-100 {
   color: green;
 } */
 
-#komo:hover {
+/* #komo:hover {
   color: green;
-}
+} */
 
 #komo {
   color: red;
@@ -82,10 +82,7 @@ h4 {
   color: #36485F;
 }
 
-#pik {
-  /* height: 600px; */
-  image-resolution: from-image;
-}
+
 
 #sik {
   text-align: center;
@@ -108,11 +105,11 @@ h4 {
   margin-right: -15px;
 }
 
-#komo {
+/* #komo {
   text-align: center;
   color: #F4006A;
   font-size: 50px;
-}
+} */
 
 #sit {
   font-size: 10px;
