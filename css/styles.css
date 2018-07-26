@@ -50,7 +50,7 @@ body {
 }
 
 #jumboFeedback {
-  padding: 2.7rem;
+  padding: 4.25rem;
   border-radius: 0;
 }
 
@@ -204,4 +204,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
