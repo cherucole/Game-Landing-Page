@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 body {
   font-family: 'Poppins', serif;
+  background-image: url("../img/parallax.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
 }
 
 h3 {
   color: #F4006A;
 }
 
-body {
-  background-image: url("../img/parallax.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  /* color: white; */
-}
+
 
 footer {
   background-color: #3f3f3f;
