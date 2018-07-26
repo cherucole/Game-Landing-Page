@@ -2,10 +2,10 @@ body {
   font-family: 'Cardo', serif;
 }
 
-h1 {
+/* h1 {
   color: #F4006A;
   text-align: center;
-}
+} */
 
 h3 {
   color: #F4006A;
@@ -17,6 +17,11 @@ p {
 
 #komo:hover {
   color: green;
+
+}
+#komo{
+  color: red;
+  text-align: center;
 }
 
 #mike {
@@ -71,7 +76,7 @@ h4 {
 }
 
 #sit {
-  font-size: -20px;
+  font-size: 10px;
   color: white;
 }
 
@@ -98,10 +103,7 @@ h4 {
   background-color: black;
 text-decoration-color:
 }
-#pit{
-  background-color: black;
-  font-size: 20px;
-}
+
 #PUK{
   height: 50%;
 }
@@ -111,9 +113,9 @@ h{
 #kum{
   font-size: 40px;
 }
-#myNavbar{
+/* #myNavbar{
   text-align:center;
-}
+} */
 #nit{
   color: red;
 }
@@ -151,4 +153,18 @@ h{
 }
 #git{
   color: white;
+}
+
+#log{
+  margin-right: 800px;
+}
+#b{
+  color: red;
+}
+h{
+  color: red;
+}
+#kik{
+  padding-right:100px;
+  padding-right: 600px;
 }
