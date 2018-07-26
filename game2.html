@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles.css"
+  <!-- <link rel="stylesheet" href="css/styles.css" -->
   <link rel="stylesheet" href="css/game2.css">
 
   <title>Harry Potter</title>
@@ -22,19 +22,18 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light  fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
+      <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-	<span class="navbar-toggler-icon"></span>
-</button>
+	<span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a id="navtext" class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a id="navtext" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Games
         </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -50,10 +49,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a id="navtext" class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
+            <a id="navtext" class="nav-link" href="privacy.html">Privacy</a>
           </li>
 
         </ul>
@@ -81,7 +80,7 @@ AVAILABLE NOW</h2>
     <div id="divider" class="row">
       <img src="img/line.jpg" alt=""></div>
     <div class="container">
-      <h2 id= "caps"><p align="center">Trailer</h2></p>
+      <h2 id="caps"><p align="center">Trailer</h2></p>
       <iframe width="1000" height="600" src="https://www.youtube.com/embed/ehixbGzOZ_M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center" id="frame"></iframe>
     </div>
     <div id="divider" class="row"><br>

@@ -6,6 +6,14 @@
   padding-top: -45px;
   margin-bottom: -50px;
 }
+nav {
+  background-image: url("../img/navbar.png");
+  background-size: cover;
+}
+
+#navtext {
+  color: white;
+}
 .about{
   color: white;
   text-align: center;

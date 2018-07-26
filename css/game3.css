@@ -10,6 +10,14 @@ body {
   font-weight: 500;
   box-sizing: border-box;
 }
+nav {
+  background-image: url("../img/navbar.png");
+  background-size: cover;
+}
+
+#navtext {
+  color: white;
+}
 
 .top-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/top15.jpg);
