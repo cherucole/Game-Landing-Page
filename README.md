@@ -34,12 +34,12 @@ I have put up a live stream just by the coding section and one can view this pro
 
 ## Authors
 
-* Game City Team Members:
+Game City Team Members:
 * Cherucole
-* Tom
-* Mike
-* Tonny
-* Tony
+* Tom Chege
+* Michael Karanja
+* Tonny Muchui
+* Tony Kioko
 
 
 ## License
