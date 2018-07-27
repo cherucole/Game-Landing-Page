@@ -13,7 +13,6 @@ body {
 }
 
 
-
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -22,7 +21,7 @@ footer {
 }
 
 nav {
-  background-image: url("../img/navbar.png");
+  background-image: url("img/navbar.png");
   background-size: cover;
 }
 
@@ -69,12 +68,15 @@ h4 {
   font-size: 30px;
 }
 
+#cardimg{
+  height:150px;
+  width: 180px;
 
+}
 
-#nit {
-  color: red;
-} */
-
+h3{
+  color: #F4006A;
+}
 .flex-container {
   display: flex;
   height: 200px;
