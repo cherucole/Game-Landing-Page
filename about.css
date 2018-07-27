@@ -7,8 +7,9 @@ body {
   color: white;
 }
 
-h3 {
-  color: #F4006A;
+#desc {
+  color: black;
+  font-size: 14px;
 }
 
 
@@ -23,14 +24,22 @@ footer {
 nav {
   background-image: url("../img/navbar.png");
   background-size: cover;
-  font-size: 22px;
-  color: white;
 }
 
+#navtext {
+  color: white;
+}
 .navbar {
   padding: .8rem;
 }
 
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
@@ -41,25 +50,9 @@ hr.light-100 {
   width: 100%;
 }
 
-#desc {
-  color: black;
-}
-
-/* p {
-  color: green;
-} */
-
-/* #komo:hover {
-  color: green;
-} */
-
-#komo {
-  color: red;
-  text-align: center;
-}
 
 #mike {
-  color: black;
+  color: white;
   text-align: justify;
   padding-left: 0px;
   font-size: 22px;
@@ -76,92 +69,11 @@ h4 {
   font-size: 30px;
 }
 
-#cup {
-  font-size: 40px;
-  text-align: center;
-  color: #36485F;
-}
 
-
-
-#sik {
-  text-align: center;
-  color: white;
-  margin-left: 20px;
-}
-
-#sum {
-  margin-left: 20px;
-}
-
-#kip {
-  height: : 5000px;
-  height: : 5000px;
-}
-
-#lip {
-  color: #F4006A;
-  background-color: black;
-  margin-right: -15px;
-}
-
-/* #komo {
-  text-align: center;
-  color: #F4006A;
-  font-size: 50px;
-} */
-
-#sit {
-  font-size: 10px;
-  color: white;
-}
-
-#dip {
-  background-color: black;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-#pig {
-  font-size: -30px;
-}
-
-/* #buk{
-  background-color: black;
-} */
-
-#at {
-  text-align: center;
-}
-
-#nop p {
-  text-align: center;
-}
-
-#dip {
-  background-color: black;
-  text-decoration-color:
-}
-
-#PUK {
-  height: 50%;
-}
-
-h {
-  color: #F4006A;
-}
-
-#kum {
-  font-size: 40px;
-}
-
-/* #myNavbar{
-  text-align:center;
-} */
 
 #nit {
   color: red;
-}
+} */
 
 .flex-container {
   display: flex;
@@ -176,49 +88,4 @@ h {
   height: 0%;
   margin-bottom: 50px;
   color: white;
-}
-
-#mit {
-  color: white;
-}
-
-#vip {
-  color: green;
-}
-
-#dap {
-  color: brown;
-}
-
-#dep {
-  color: #3744AF;
-}
-
-#dip {
-  color: #E18500;
-}
-
-#pip {
-  color: #2C66B9;
-}
-
-#git {
-  color: white;
-}
-
-#log {
-  margin-right: 800px;
-}
-
-#b {
-  color: red;
-}
-
-h {
-  color: red;
-}
-
-#kik {
-  padding-right: 100px;
-  padding-right: 600px;
 }
