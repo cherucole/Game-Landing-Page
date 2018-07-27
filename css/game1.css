@@ -10,6 +10,11 @@ nav {
   background-image: url("../img/navbar.png");
   background-size: cover;
 }
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 1rem;
+}
 
 #navtext {
   color: white;
@@ -53,13 +58,13 @@ iframe {
   background-attachment: fixed;
 }
 .ba{
-background-image: url('../img/body.jpeg');
+background-image: url("img/body.jpeg");
   background-attachment: fixed;
 }
 .jumbotron{
   background-color: #19003F;
   background-attachment: fixed;
 }
-.well{
+/* .well{
 background-color: #141122;
-}
+} */
