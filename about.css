@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 body {
   font-family: 'Poppins', serif;
-  background-image: url("../img/parallax.jpg");
+  background-image: url("img/parallax.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
